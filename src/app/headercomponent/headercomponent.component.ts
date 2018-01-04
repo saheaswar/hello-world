@@ -11,7 +11,6 @@ export class HeadercomponentComponent implements OnInit {
 
   ngOnInit() {
       let id = document.getElementsByTagName("headers");
-      console.log(id);
   }
 
 }

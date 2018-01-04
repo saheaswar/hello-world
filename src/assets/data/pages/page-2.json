@@ -1,0 +1,11 @@
+{
+	"imagepath": "assets/images/pages/",
+	"images": [
+        {"name":"page_2_2_2.png",
+         "altText":"Sample texts"
+        }
+    ],
+    "texts": [
+        
+    ]
+}

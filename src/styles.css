@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+button{
+    cursor: pointer;
+}
 
 #wrapper{
     position: relative;
@@ -6,6 +11,7 @@
     height:661px;
     margin: 0px auto;
     overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
@@ -28,3 +34,57 @@ footer{
     height:40px;
     background-color: rgb(99, 99, 250);
 }
+
+#loaderBlock{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+#loader{
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+    animation: spin 2s linear infinite;
+    top:50%;
+    left:50%;
+    position:fixed;
+    margin-top: -60px;
+    margin-left: -60px;
+}
+
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/* SCROLLBAR CUSTOMIZATION */
+.-vertical {
+    width: 4px !important;
+    top: 0px !important;
+}
+
+.ng-scrollbar {
+    position: absolute !important;
+    right: 0px !important;
+    bottom: 0px !important;
+    z-index: 1 !important;
+    border-radius: 2px !important;
+}
+
+.ng-scrollbar-thumb {
+    position: relative !important;
+    display: block !important;
+    width: 0;
+    height: 0;
+    cursor: pointer !important;
+    border-radius: inherit !important;
+    background-color: rgba(15, 226, 110, 0.2) !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+/* SCROLLBAR CUSTOMIZATION ENDS*/

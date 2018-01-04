@@ -1,0 +1,15 @@
+{
+	"setCurrentPage": 1,
+	"totalPages": 3,
+	"pageDetails": [{
+		"page-1": [{
+			"isMedia" : false
+		}],
+		"page-2": [{
+			"isMedia" : false
+		}],
+		"page-3": [{
+			"isMedia" : true
+		}]
+	}]
+}
