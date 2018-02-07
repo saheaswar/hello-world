@@ -1,0 +1,43 @@
+[{
+    "courseName": "Framework",
+    "module": {
+        "heading": "Level 1 Slides",
+        "URL": "#",
+        "hasAudio": "false",
+        "page": [{
+            "heading": "Slides",
+            "URL": "#",
+            "subpage": [{
+                "heading": "Image with Text",
+                "URL": "pages/module_1/page_1/page.html",
+                "hasAudio": "true"
+            }, {
+                "heading": "Slideshow",
+                "URL": "pages/module_1/page_2/page.html",
+                "hasAudio": "true"
+            }, {
+                "heading": "Video",
+                "URL": "pages/module_1/page_6/page.html",
+                "hasAudio": "true"
+            }, {
+                "heading": "Tab with OST",
+                "URL": "pages/module_1/page_5/page.html",
+                "hasAudio": "true"
+            }]
+        }, {
+            "heading": "Quiz",
+            "URL": "#",
+            "subpage": [{
+                    "heading": "Multiple Choice Multi Select",
+                    "URL": "pages/module_1/page_3/page.html",
+                    "hasAudio": "true"
+                },
+                {
+                    "heading": "Multiple Choice Single Select",
+                    "URL": "pages/module_1/page_4/page.html",
+                    "hasAudio": "true"
+                }
+            ]
+        }]
+    }
+}]

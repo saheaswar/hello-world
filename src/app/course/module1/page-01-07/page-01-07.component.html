@@ -1,0 +1,42 @@
+<div id="dragAndDropContainer" class="row">
+    <div class="col-xs-12">
+        <!--div class="row">
+            <h4 class="page-heading">{{globalData.CourseContent.pageHeading}}</h4>
+        </div-->
+        <div class="row">
+            <div ddDragDropType1 class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12"> 
+                                <div class="answers-area">
+                                    <div id="card1" class="coln-1 draggable-item" attr.data-number='{{ answer1 }}' (mousedown)="$event.stopPropagation();" (touchmove)="ddDragDropType1.touchHandler($event)" (touchstart)="ddDragDropType1.touchHandler($event)" (touchend)="ddDragDropType1.touchHandler($event)">
+                                        <p>{{ question1 }}</p>
+                                    </div>
+                                    <div id="card2" class="coln-2 draggable-item" attr.data-number='{{ answer2 }}' (mousedown)="$event.stopPropagation();" (touchmove)="ddDragDropType1.touchHandler($event)" (touchstart)="ddDragDropType1.touchHandler($event)" (touchend)="ddDragDropType1.touchHandler($event)">
+                                        <p>{{ question2 }}</p>
+                                    </div>
+                                    <div id="card3" class="coln-3 draggable-item" attr.data-number='{{ answer3 }}' (mousedown)="$event.stopPropagation();" (touchmove)="ddDragDropType1.touchHandler($event)" (touchstart)="ddDragDropType1.touchHandler($event)" (touchend)="ddDragDropType1.touchHandler($event)">
+                                        <p>{{ question3 }}</p>
+                                    </div>
+                                    <!--<p id="card2" class="draggable-item">{{globalData.CourseContent.question[1].dragText}}</p>
+                                    <p id="card3" class="draggable-item">{{globalData.CourseContent.question[2].dragText}}</p> -->
+                                </div>
+                            </div>
+                            <div class="col-xs-12"> 
+                                <div class='bbl-drop'>
+                                    <div class="droppable-item" attr.data-number='Appropriate' ></div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="buttons">
+                            <button class="btn btn-lg btn-primary" [ngClass]="{'disableThis':ddDragDropType1.isSubmitDisabled}" (click)="onSubmitHandler()">SUBMIT</button>	
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div>

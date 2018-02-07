@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,12 +6,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './headercomponent.component.html',
   styleUrls: ['./headercomponent.component.css']
 })
+
 export class HeadercomponentComponent implements OnInit {
-  headTitle = "SAMPLE PROJECT"
+
   constructor() { }
 
   ngOnInit() {
-      let id = document.getElementsByTagName("headers");
+     
   }
 
 }

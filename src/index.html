@@ -2,23 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>HelloWorld</title>
+  <title>Course Framework</title>
   <base href="./">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="assets/extjs/enscroll-0.6.2.min.js"></script>
 </head>
-<body>
-  <div id="wrapper">
-    <div id="loaderBlock">
-      <div id="loader"></div>
+<body style="background: #21252b;">
+  <!--  wrapper start  -->
+  <div id="f_wrapper">
+    <!--  preloader start  -->
+    <div id="f_preloader">
+        <div id="f_loaderImage"></div>
     </div>
+    <!--  preloader end  -->
+
+    <!--  preloade image start  -->
+    <div id="f_preload_main_images" style="display: none;">
+        <img id="preload1" src="assets/images/ui/f_bg.jpg" alt="preloadImage">
+        <img id="preload2" src="assets/images/ui/f_bg_portrait.jpg" alt="preloadImage">
+        <img id="preload3" src="assets/images/ui/f_cc.png" alt="preloadImage">
+        <img id="preload4" src="assets/images/ui/f_glossary.png" alt="preloadImage">
+        <img id="preload5" src="assets/images/ui/f_help.png" alt="preloadImage">
+        <img id="preload6" src="assets/images/ui/f_home.png" alt="preloadImage">
+        <img id="preload7" src="assets/images/ui/f_logo.png" alt="preloadImage">
+        <img id="preload8" src="assets/images/ui/f_menu.png" alt="preloadImage">
+        <img id="preload9" src="assets/images/ui/f_minus.png" alt="preloadImage">
+        <img id="preload10" src="assets/images/ui/f_mute.png" alt="preloadImage">
+        <img id="preload11" src="assets/images/ui/f_next.png" alt="preloadImage">
+        <img id="preload12" src="assets/images/ui/f_pause.png" alt="preloadImage">
+        <img id="preload13" src="assets/images/ui/f_play.png" alt="preloadImage">
+        <img id="preload14" src="assets/images/ui/f_plus.png" alt="preloadImage">
+        <img id="preload15" src="assets/images/ui/f_prev.png" alt="preloadImage">
+        <img id="preload16" src="assets/images/ui/f_replay.png" alt="preloadImage">
+        <img id="preload17" src="assets/images/ui/f_resource.png" alt="preloadImage">
+        <img id="preload18" src="assets/images/ui/f_setting.png" alt="preloadImage">
+        <img id="preload19" src="assets/images/ui/f_transcript.png" alt="preloadImage">
+        <img id="preload20" src="assets/images/ui/f_setting.png" alt="preloadImage">
+        <img id="preload21" src="assets/images/ui/f_ui_icons.png" alt="preloadImage">
+        <img id="preload22" src="assets/images/ui/f_unmute.png" alt="preloadImage">
+        <img id="preload23" src="assets/images/ui/preload_sprites.png" alt="preloadImage">
+    </div>
+    <!--  preloade image end  -->
+
+    <!-- headers -->
+    <headers id="f_header" ></headers>
+    <!-- headers end -->
     
-    <header><headers></headers></header>
-    <main-container id="container"></main-container>
-    <footer><footers></footers></footer>
+    <!--  setting btns  -->
+    <gadget-buttons id="f_gadgetPopup"></gadget-buttons>
+    <!--  setting btns end -->
+
+    <!--  content start  -->
+    <section id="f_content" >
+        <main-container id="container"></main-container>
+        
+        <!--  ccText start  -->
+        <closed-caption id="f_ccContainer"></closed-caption>
+        <!--  ccText end  -->
+    </section>
+    <!--  content end  -->
+    
+    <!-- footers -->
+    <footers id="f_footer"></footers>
+    <!-- footers end -->
+
+    <!--  ipadPlayBtn start  -->
+    <div id="f_ipadPlayBtnHolder" style="display: none;">
+        <button type="button" id="f_ipadPlayBtn"></button>
+    </div>
+    <!--  ipadPlayBtn end  -->
+
+    <!--  menu start  -->
+    <menu-container id="f_menuPopup"></menu-container>
+    <!--  menu end  -->
+
+    <!--  transcript start -->
+    <transcript-container id="f_transcriptContainer"></transcript-container>
+    <!-- transcript end  -->
+
+    <!--  glossary start  -->
+    <glossary-container id="f_glossaryPopup"></glossary-container>
+    <!--  glossary end  -->
+
+    <!--  resources start  -->
+    <resource-container id="f_resourcePopup"></resource-container>
+    <!--  resource end  -->
   </div>
+  <!--  wrapper end  -->
+  <audio id="courseAudio"></audio>
 </body>
 </html>

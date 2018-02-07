@@ -1,0 +1,23 @@
+<div id="dragAndDropContainer" class="row">
+    <div class="col-xs-12">
+        <div class="row">
+          <div ddDragDropOneToOne class="col-xs-12">
+              <div class="row">
+                  <ul id="question-text">
+                    <li *ngFor="let item of question" class="containDrags">
+                      <div class="col-xs-6 draggable-item" id="card{{item.dropIndex}}" attr.data-number='{{ item.dropIndex }}' (mousedown)="$event.stopPropagation();" (touchmove)="ddDragDropOneToOne.touchHandler($event)" (touchstart)="ddDragDropOneToOne.touchHandler($event)" (touchend)="ddDragDropOneToOne.touchHandler($event)">{{item}}</div>
+                      <div class="col-xs-6 droppable-item" id="target{{item.id}}" attr.data-number='{{ item.id }}'><p class='instr'>Drop here..</p></div>
+                    </li>
+                  </ul>
+              </div>
+              <div class="row">
+                  <div class="col-xs-12">
+                      <div class="buttons">
+                          <button class="btn btn-lg btn-primary" [ngClass]="{'disableThis':ddDragDropOneToOne.isSubmitDisabled}" (click)="onSubmitHandler()">SUBMIT</button>	
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>

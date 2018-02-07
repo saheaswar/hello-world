@@ -1,15 +1,44 @@
 {
+	"courseTitle": "Framework V1 Angular",
+	"strictNavigation": false,
 	"setCurrentPage": 1,
-	"totalPages": 3,
+	"totalPages": 6,
 	"pageDetails": [{
 		"page-1": [{
+			"title": "Image with Text",
 			"isMedia" : false
 		}],
 		"page-2": [{
+			"title": "Text Slideshow",
 			"isMedia" : false
 		}],
 		"page-3": [{
+			"title": "Video",
 			"isMedia" : true
+		}],
+		"page-4": [{
+			"title": "Tab with OST",
+			"isMedia" : false
+		}],
+		"page-5": [{
+			"title": "Multiple Choice Multi Select",
+			"isMedia" : false
+		}],
+		"page-6": [{
+			"title": "Multiple Choice Single Select",
+			"isMedia" : false
+		}],
+		"page-7": [{
+			"title": "Drag and Drop Type 1",
+			"isMedia" : false
+		}],
+		"page-8": [{
+			"title": "Drag and Drop Type 2",
+			"isMedia" : false
+		}],
+		"page-9": [{
+			"title": "Drag and Drop Type 3",
+			"isMedia" : false
 		}]
 	}]
 }

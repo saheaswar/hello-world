@@ -1,0 +1,70 @@
+#workArea{
+    position: absolute;
+    width: 500px;
+    height: 310px;
+    left: 50%;
+    top:50%;
+    margin-left: -250px;
+    margin-top: -155px;
+}
+
+#graphConainer{
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+#mytext{
+    display: none;
+    height:100%;
+}
+
+#mytext p{
+    display: table-cell;
+    vertical-align: middle;
+    color:#000;
+}
+
+#mybtn{
+    position: absolute;
+    background-color: #3C69A8;
+    width: 120px;
+    height: 30px;
+    left: 50%;
+    top: 50%;
+    margin-left: -60px;
+    margin-top: -15px; 
+}
+.graph{
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    top: 11px;
+    left: 92px;
+}
+.graph img{ 
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 812px){
+    #workArea{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 0%;
+        top:60px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #graphConainer{
+        position: absolute;
+        width: 308px;
+        height: 302px;
+        left: 50%;
+        top: 50%;
+        margin-left: -154px;
+        margin-top:-152px;
+    }
+}

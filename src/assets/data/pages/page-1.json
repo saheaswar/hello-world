@@ -1,74 +1,31 @@
 {
-	"imagepath": "assets/images/pages/",
-	"images": [
-        {"name":"page_2_0.png",
-         "altText":"Sample texts"
-        },
-        {"name":"page_2_0.png",
-            "altText":"Sample texts"
-        }
+    "audioSRC": "assets/media/audio/page_1_1.mp3",
+
+    "leftSide": {
+        "imageSRC": "assets/images/pages/page_1_1.png",
+        "altText": "Cake Image"
+    },
+
+    "title": "Privacy Overview",
+
+    "content": ["Hello, and welcome to the Privacy Overview module. When it comes to patient information it is especially important that we understand the regulations and guidelines so we can protect patient privacy.", "Explain the need for standardization in the secure chip industry. Describe how GlobalPlatform provides solutions to facilitate secure chip acceptance."],
+
+    "list": ["Build a root of trust using a GlobalPlatform device.", "Choose the best management model according to your ecosystem."],
+
+    "transcriptText": [
+        [
+            "<i><b>Hello</b></i>, and welcome to the Privacy Overview module. When it comes to patient information it is especially important that we understand the regulations and guidelines so we can protect patient privacy.", "Explain the need for standardization in the secure chip industry. Describe how GlobalPlatform provides solutions to facilitate secure chip acceptance.", ["Build a root of trust using a GlobalPlatform device.", "Choose the best management model according to your ecosystem."]
+        ]
     ],
-    "texts": [
-        {"textBlock" : [
-            {"textStyle": {
-                "backgroundColor": "#5396fa",
-                "color": "#000",
-                "height": "100px",
-                "marginBottom": "10px",
-                "fontSize" : "10px"
-                }
-            },
-            {"contents": [
-                {"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 1"},
-                {"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 2"},
-                {"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 3"},
-                {"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 4"},
-                {"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 5"}
-            ]}
-        ]},
-        {"textBlock" : [
-            {"textStyle": {
-                "backgroundColor": "#d208f9",
-                "color": "#fff",
-                "height": "100px",
-                "marginBottom": "10px"
-                }
-            },
-            {"contents": [
-                {"content": "2.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 1"},
-                {"content": "2.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 2"},
-                {"content": "2.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 3"},
-                {"content": "2.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 4"},
-                {"content": "2.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 5"}
-            ]}
-        ]},
-        {"textBlock" : [
-            {"textStyle": {
-                "backgroundColor": "#5396fa",
-                "color": "#f00",
-                "height": "100px",
-                "marginBottom": "10px"
-                }
-            },
-            {"contents": [
-                {"content": "3.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 1"},
-                {"content": "3.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 2"},
-                {"content": "3.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 3"}
-            ]}
-        ]},
-        {"textBlock" : [
-            {"textStyle": {
-                "backgroundColor": "#A0A0A0",
-                "color": "#fff",
-                "height": "100px",
-                "marginBottom": "10px"
-                }
-            },
-            {"contents": [
-                {"content": "4.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 1"},
-                {"content": "4.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 2"},
-                {"content": "4.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 3"}
-            ]}
-        ]}
+
+    "ccText": [
+        [
+            { "text": "Hello, and welcome to the Privacy Overview module.", "startTime": 0, "endTime": 6.2 },
+            { "text": "When it comes to patient information it is especially important that we understand the regulations and guidelines so we can protect patient privacy.", "startTime": 6.4, "endTime": 15.9 },
+            { "text": "Explain the need for standardization in the secure chip industry.", "startTime": 16.1, "endTime": 21 },
+            { "text": "Describe how GlobalPlatform provides solutions to facilitate secure chip acceptance.", "startTime": 21.2, "endTime": 27.3 },
+            { "text": "Build a root of trust using a GlobalPlatform device.", "startTime": 27.5, "endTime": 31.3 },
+            { "text": "Choose the best management model according to your ecosystem.", "startTime": 31.5, "endTime": 35.5 }
+        ]
     ]
 }

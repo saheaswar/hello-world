@@ -1,0 +1,44 @@
+<ul class="nav nav-tabs">
+  <li [class.active]="viewMode =='flood'"><a class="tab1"(click)="viewMode = 'flood'"><strong>Flooding</strong></a></li>
+  <li [class.active]="viewMode =='land'"><a class="tab2" (click)="viewMode = 'land'"><strong>Land loss</strong></a></li>
+  <li [class.active]="viewMode =='ground'"><a class="tab3" (click)="viewMode = 'ground'"><strong>Groundwater contamination</strong></a></li>
+  <li [class.active]="viewMode =='fresh'"><a class="tab4" (click)="viewMode = 'fresh'"><strong>Freshwater shortages</strong></a></li>
+</ul>
+<div class="cont" [ngSwitch]="viewMode">
+  <div *ngSwitchCase="'flood'" style="display:table;">
+    <div class="col-md-5 col-sm-5 col-xs-12">
+      <img src="assets/images/pages/flood.png" alt="" class="img">
+    </div>
+    <div class="col-md-7 col-sm-7 col-xs-12">
+      <p>The Republic of Maldives, shown here, is the flattest nation on Earth. It is made up of approximately 1200 islands in the Indian Ocean. This nation is endangered by rising seas, as its highest elevation is only 2.4 m. Flooding due to unusually high tides has already become a recurring problem.</p>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'land'" style="display:table;">
+    <div class="col-md-5 col-sm-5 col-xs-12">
+      <img src="assets/images/pages/land.png" alt="" class="img">
+    </div>
+    <div class="col-md-7 col-sm-7 col-xs-12">
+      <p>In the United States, more than half the population lives in coastal areas. Some of the lowest-lying coastal areas are found in Florida. The maps show how much of Florida will be underwater if sea levels rise by 10 m on the East Coast. Since the East Coast has many dense population centers, many people will disappear underwater.</p>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'ground'" style="display:table;">
+    <div class="col-md-5 col-sm-5 col-xs-12">
+      <img src="assets/images/pages/ground.png" alt="" class="img">
+    </div>
+    <div class="col-md-7 col-sm-7 col-xs-12">
+      <p>Rising seawaters may intrude on freshwater aquifers in coastal areas. Regions where the land is sinking because of groundwater pumping or other reasons will be especially prone to both flooding and groundwater contamination by saltwater, as shown here.</p>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'fresh'" style="display:table;">
+    <div class="col-md-5 col-sm-5 col-xs-12">
+      <img src="assets/images/pages/fresh.png" alt="" class="img">
+    </div>
+    <div class="col-md-7 col-sm-7 col-xs-12">
+      <p>This is Taylor Park Reservoir in Colorado. It is filled with water from snowmelt. With higher temperatures come less snowpack and smaller glaciers. Areas that rely on snowmelt or glacier melt to fill reservoirs will have to seek other sources of freshwater.</p>
+    </div>
+  </div>
+  <div *ngSwitchDefault class="default">Click a tab</div>
+</div>
